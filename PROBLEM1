@@ -1,0 +1,41 @@
+#include<iostream>
+#include <conio.h>>
+#include<cmath>
+
+using namespace std;
+
+int main()
+{
+    
+    cout<<"Input operation"<<endl;
+    cout<<"1.Add"<<endl;
+    cout<<"2.Subtract"<<endl;
+    cout<<"3.Multiply"<<endl;
+    cout<<"4.Divide"<<endl;
+    cout<<"5.Modulus"<<endl;
+    cout<<"Your Operation: "; cin>> choice;
+    
+    if(choice == 1)
+    {
+        addition();
+    }
+    else if (choice == 2)
+    {
+        subtraction();
+    }
+    else if (choice == 3)
+    {
+        multiply();
+    }
+    else if (choice == 4)
+    {
+        divide();
+    }
+    else if (choice == 5)
+    {
+        modu();
+    }
+    
+    _getch();
+    return 0;
+}
